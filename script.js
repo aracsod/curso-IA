@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você define saúde depressão e ansiedade?",
+        enunciado: "Como você define a depressão e ansiedade?",
         alternativas: [
             {
                 texto: "A depressão é uma doença psiquiátrica que afeta o emocional da pessoa, que passa a apresentar tristeza profunda, falta de apetite, desânimo, pessimismo, baixa auto-estima, que aparecem com frequência e podem combinar-se entre si.",
@@ -35,37 +35,37 @@ const perguntas = [
         enunciado: "Quais estratégias você utiliza para manter-se livre da depressão e ansiedade?",
         alternativas: [
             {
-                texto: "Conheça sete hábitos de vida que podem prevenir a depressão, consumo moderado de álcool, dieta saudável, atividade física regular, sono adequado, nunca fumar, comportamento sedentário baixo a moderado, conexões sociais frequentes.",
+                texto: "Hábitos comuns na prevenção da depressão são consumo moderado de álcool, dieta saudável, atividade física regular, sono adequado, nunca fumar, comportamento sedentário baixo a moderado, conexões sociais frequentes.",
                 afirmacao: "Atividades como meditação e exercício físico liberam hormônios que promovem bem-estar e reduzem o estresse, ajudando a manter a mente equilibrada."
             },
             {
-                texto: "Conversar sobre sentimentos com amigos ou familiares é uma maneira eficaz de cuidar da saúde emocional.",
+                texto: "Para tratar a ansiedade, é preciso adotar uma rotina de exercícios físicos, buscar medidas de relaxamento, como a meditação, realizar exercícios de respiração, inserir atividades prazerosas na rotina, reduzir o consumo de substâncias estimulantes, como cafeína, organizar-se e planejar o dia com antecedência, não se cobrar tanto.",
                 afirmacao: "O apoio emocional de amigos e familiares pode fornecer uma rede de suporte, aliviando a carga emocional e permitindo um espaço seguro para expressar sentimentos."
             }
         ]
     },
     {
-        enunciado: "Como a saúde mental e emocional pode impactar o desempenho no trabalho ou nos estudos?",
+        enunciado: "Como a depressão e a ansiedade pode impactar o desempenho pessoal?",
         alternativas: [
             {
-                texto: "Um estado mental saudável aumenta a produtividade e a criatividade no trabalho.",
+                texto: "A depressão pode levar a mais estresse e disfunção e piorar a situação de vida da pessoa afetada e o transtorno em si.",
                 afirmacao: "Quando a mente está saudável, é mais fácil se concentrar, resolver problemas e ter uma atitude positiva no trabalho ou nos estudos, o que pode aumentar a eficiência e a criatividade."
             },
             {
-                texto: "Problemas de saúde mental podem levar à falta de concentração e ao baixo rendimento acadêmico.",
+                texto: "A ansiedade persistente causa uma avalanche emocional, sensação de angústia e pode levar-nos a nos tornarmos indispostos e, na pior das hipóteses, resulta em transtornos de ansiedade como ataques de pânico, fobias e comportamentos obsessivos.",
                 afirmacao: "Por outro lado, problemas de saúde mental, como ansiedade ou depressão, podem afetar a capacidade de focar e se engajar nas tarefas, resultando em um desempenho abaixo do esperado."
             }
         ]
     },
     {
-        enunciado: "Quais medidas a sociedade pode tomar para promover a saúde mental e emocional?",
+        enunciado: "Quais medidas a sociedade pode tomar para promover o tratamento da depressão e ansiedade?",
         alternativas: [
             {
-                texto: "Promover campanhas de conscientização sobre saúde mental pode ajudar a reduzir o estigma.",
+                texto: "O acolhimento das pessoas com sofrimento ou transtorno mental, incluindo depressão e as necessidades decorrentes do uso de álcool e outras drogas, e seus familiares é uma estratégia de atenção fundamental para a identificação das necessidades assistenciais, alívio do sofrimento e planejamento de intervenções.",
                 afirmacao: "A conscientização sobre a importância da saúde mental e a redução do estigma associado a transtornos mentais pode encorajar mais pessoas a buscar ajuda e falar abertamente sobre suas dificuldades."
             },
             {
-                texto: "Oferecer suporte psicológico acessível a todos é essencial para uma sociedade mais saudável.",
+                texto: "Além de mostrar que você está disponível, tente distrair a pessoa com coisas que você sabe que ela gosta: um passeio agradável, uma música, um chá reconfortante ou apenas sente-se ao seu lado em silêncio e segure a sua mão. Atitudes como essas já podem ajudar muito.",
                 afirmacao: "A disponibilidade de serviços de saúde mental acessíveis e de qualidade é crucial para garantir que todos tenham a oportunidade de cuidar de sua saúde emocional e mental."
             }
         ]
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Como está sua saúde mental hoje...";
+    caixaPerguntas.textContent = "Como está sua saúde emocional hoje..";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "A saúde mental e emocional é fundamental para o bem-estar geral, impactando todas as áreas da vida, desde o trabalho e os estudos até as relações interpessoais. Entender o que influencia a saúde mental e as formas de mantê-la em equilíbrio é essencial para promover uma vida mais plena e saudável. A sociedade também desempenha um papel importante ao criar um ambiente de apoio e compreensão, incentivando o cuidado com a saúde mental e emocional como uma prioridade. Ao refletir sobre essas questões, é possível reconhecer a importância de cuidar da mente tanto quanto do corpo, buscando equilíbrio e bem-estar em todas as esferas da vida.";
 }
